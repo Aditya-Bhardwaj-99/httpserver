@@ -1,0 +1,21 @@
+.paperback{
+    width: 450px;
+    height: 450px;
+    background: rgba(255, 255, 255, 0.4);
+    -webkit-box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
+    margin-top: 20%;
+    margin-left: 20%;
+}
+.error{
+    margin-left: 20%;
+}
+.form{
+    margin-left: 30%;
+}
+.user{
+    margin-top: 20%;
+}
+.btn{
+    margin-left: 7%;
+}

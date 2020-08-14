@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+</head>
+<link rel="stylesheet" href="/css/Login.css">
+
+<body style='background-image: url("/image/back.jpg");background-size:cover;'>
+    <div class='paperback'>
+        <form action='/login' method="POST" class='form'>
+            <input type='text' class='user' name='user' placeholder='Username'><br>
+            <input type='password' class='pass' name='pass' placeholder='Password'><br>
+            <button type="submit" class="btn">Login</button><button type="button" onclick="tosignup()">Sign up</button>
+        </form><br>
+        <div class='error'> <%= err %> </div>
+    </div>
+</body>
+<script src="/js/use.js"></script>
+
+</html>
