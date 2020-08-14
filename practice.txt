@@ -1,0 +1,24 @@
+Server creation and server handling;
+javascript on our computers using a runtime;
+
+Server:- A machine that can handle network requests:-
+network requests:- some commands that can request or get some data
+
+user:- 1tb 2gb ram
+data--data---
+
+server:-
+data-data---
+number of network requests.
+
+javascript:- some work was shifted to user side
+server:- 
+1. handles network requests
+2. interaction database / data
+3. server can coordinate many clients together
+4. socket->websocket
+
+Server:-
+1. http
+2. https
+3. express
